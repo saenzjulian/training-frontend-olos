@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #ccc solid;
+}
+
+#logo{
+    display: flex;
+    height: 70%;
+}
+
+.logo-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-txt{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-right: 20px;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.menu li:hover{
+    text-decoration: underline;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.button{
+    padding: 15px 10px;
+    overflow: hidden;
+    max-width: 110px;
+    min-width: 110px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.button label{
+    pointer-events: none;
+}
+
+.button:hover { 
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+    border: none;
+}
+
+.button-main{
+    padding: 15px 50px;
+    overflow: hidden;
+    max-width: 200px;
+    min-width: 200px;
+    border-radius: 50px;
+    text-align: center; 
+    border: none; 
+    background-color: rgb(84, 84, 255);
+}
+
+.button-area-blue{ 
+    color: white;
+}
+
+.button-main:hover{
+    cursor: pointer;
+    background-color: rgb(235, 235, 235); 
+}
+
+.button-main label{
+    cursor: pointer; 
+}
+
+#principal{
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+
+sub{
+    font-size: 0.8em;
+    color: rgb(84, 84, 255);
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(31, 31, 31);
+    padding: 0px 10px 10px 0px;
+}
+
+p{
+    font-size: 1.2em;
+    color: rgb(85, 85, 85);
+    
+}
+
+.list-services ul li img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.list-services ul li{
+    display: flex; 
+    align-items: center;
+}
+
+.list-services{
+    padding: 100px 0;
+}
+
+#banner{
+    display: flex; 
+}
+
+.right-side{
+    background-color: #ccc;
+}
